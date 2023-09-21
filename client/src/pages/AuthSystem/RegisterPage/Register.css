@@ -1,0 +1,86 @@
+.Reg{
+    width: 100%;
+    display: flex;
+    font-family: VK;
+}
+.Reg__left{
+    width: 40%;
+    color: white;
+    background-color: #6F6CFF;
+    min-height: 100vh;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.25);
+    display: flex;
+    justify-content: center;
+}
+
+.Reg__content{
+    height: fit-content;
+    margin: auto;
+}
+
+.Reg__input{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    font-family: VK;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 3px;
+}
+
+
+.Reg__welcome{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.Reg__subtitle{
+    font-size: 18px;
+    margin-bottom:70px;
+    margin-top: 5px;
+    opacity: 0.9;
+}
+.Reg__span{
+    font-size: 16px;
+    opacity: 0.9;
+}
+.Reg__span:not(:first-child){
+    margin-top: 10px;
+}
+
+.Reg__button{
+    margin-top: 17px;
+    border: #d9d9d9 1px solid;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 14px;
+    color: black;
+    background-color: White;
+}
+.Reg__form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.Auth__link{
+    margin-top: 20px;
+    font-family: Montserrat-regular;
+    color: #1480FF;
+}
+.Reg__link{
+    margin-top: 20px;
+    font-family: Montserrat-regular;
+    color: white;
+}
+.Reg__right{
+    width: 60%;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.Reg__right-content{
+    color:black;
+    margin: auto;
+    box-shadow: 0px 4px 24px rgba(0,0,0,0.18);
+}

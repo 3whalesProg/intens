@@ -1,0 +1,139 @@
+
+.ChatPage__chats{
+    position: fixed;
+    width: 395px;
+    background-color: white;
+    height: 100vh;
+    overflow: auto;
+    
+}
+.ChatPage__chats::-webkit-scrollbar {
+    width: 4px;
+  }
+.ChatPage__chats::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: #d9d9d9;
+}
+.ChatPage__wrapper{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+.ChatPage__chat{
+    font-size: 14px;
+    font-family: Montserrat-regular;
+}
+.ChatPage__main{
+    margin: auto;
+    width: 1060px;
+}
+.ChatPage__chat-message-content-author{
+    padding: 8px 40px 8px 8px;
+}
+.author-message{
+    max-width: 200px;
+    color: white;
+    background-color: #6F6CFF;
+    border-radius: 10px 10px 0px 10px;
+    margin-left: auto;
+    margin-right: 30px;
+}
+.friend-message{
+    color: white;
+    max-width: 200px;
+    background-color:  white;
+    border-radius: 10px 10px 10px 0px;
+    margin-left: 30px;
+}
+.ChatPage__chat-message-content-friend{
+    color: black;
+    padding: 8px 40px 8px 8px;
+}
+.ChatPage__message-block{
+    font-family: Montserrat-regular;
+    position: fixed;
+    width: 1060px;
+    bottom: 23px;
+}
+.ChatPage__sendMessage-but{
+    width: 44px;
+    height: 44px;
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 14px;
+}
+
+.message-item{
+    display: flex;
+    justify-content: space-between;
+}
+.message-input{
+    font-size: 16px;
+    width: 990px;
+    background-color: white;
+    border-radius: 8px;
+
+    padding: 8px;
+    font-size: 14px;
+    margin-left: auto;
+}
+.ChatPage__chat-message{
+    margin-top: 10px;
+    width: fit-content;
+    max-width: 700px;
+}
+.ChatPage__chats-item{
+    width: 389px;
+    margin-left: 5px;
+}
+
+.ChatPage__chats-item-ava{
+    width: 55px;
+    height: 55px;
+    background-color: #AAAAAA;
+    border-radius: 100%;
+}
+.ChatPage__chats-item-content{
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 8px;
+}
+.ChatPage__chats-item-content:hover{
+    background-color: #F2F2F2;
+}
+
+.ChatPage__chats-item-info{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+    margin-left: 7px;
+}
+.ChatPage__chats-item-info-name{
+    font-family: Montserrat;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+.ChatPage__chats-item-info-lastMsg{
+    font-size: 15px;
+    color:#AAAAAA;
+    font-family: Montserrat-regular;
+}
+.ChatPage__chats-item-info-date{
+    margin-top: 3px;
+    font-family: Lato-regular;
+    font-size: 12px;
+    color:#AAAAAA;
+}
+.ChatPage__chats-item-info-seen{
+    font-family: Montserrat-regular;
+    font-size: 12px;
+    background-color: #6F6CFF;
+    color: white;
+    margin-top: 8%;
+    margin-left: 8px;
+    padding: 4px 8px;
+    border-radius: 100%;
+    width: fit-content;
+}

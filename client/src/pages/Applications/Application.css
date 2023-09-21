@@ -1,0 +1,119 @@
+.Application__wrapper{
+    margin-top: 70px;
+    width: 100%;
+}
+.Application__main{
+    width: 1080px;
+    margin: auto;
+}
+.Application__back{
+    color: black;
+    display: flex;
+}
+.back_but{
+    width: 30px;
+    height: 30px;
+    margin-top: 9px;
+    margin-right: 7px;
+    background-color: white;
+    border: #d9d9d9 1px solid;
+    border-radius: 100%;
+}
+
+.Application__back_title{
+    font-family: VK;
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+.back_but:hover .Application__back_title{
+    text-decoration: underline;
+}
+.Application__back_title:hover{
+    text-decoration: underline;
+}
+.construction__active{
+    padding-left: 40px;
+    margin-bottom: 50px;
+}
+.construction__active-title{
+    font-family: VK;
+    font-size: 28px;
+    color: #6F6CFF;
+}
+.construction__active-list{
+    margin-top: 15px;
+    font-family: VK;
+}
+.construction__active-list-item{
+    border: 1px solid #d9d9d9;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.construction__active-list-item-info{
+    display: flex;
+    background-color: white;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.app-title{
+    font-size: 18px;
+    font-family: VK-med;
+    width: 100px;
+    padding: 10px;
+}
+.app-date{
+    margin: 12px;
+}
+.app__items-item{
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.app__items-item:hover{
+    box-shadow: inset 1px 1px #6F6CFF;
+    box-shadow: 1px 1px #6F6CFF ;
+}
+.item-del:hover{
+    background-color: white;
+    border: #6F6CFF 1px solid;
+    border-radius: 4px;
+    padding: 1px 5px;
+}
+.item-del{
+    margin-right: 20px;
+    padding: 2px 5px;
+}
+
+.app__items-item-left{
+    display: flex;
+}
+.app__items-item-right{
+    display: flex;
+}
+.app__items-item-title{
+    font-family: VK;
+    width: 200px;
+}
+.app__items-item-date{
+    width: 210px;
+}
+.addNewItem{
+    border: #6F6CFF 1px solid;
+    padding: 2px 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+.addNewItem:hover{
+    background-color: #f2f2f2;
+}
+.add-item-title, .add-item-quantity{
+    background-color: white;
+    padding: 3px;
+    font-family: VK;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+}

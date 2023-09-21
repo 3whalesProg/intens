@@ -1,0 +1,101 @@
+.Workers__wrapper{
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+}
+.Workers__main{
+    height: fit-content;
+    width: fit-content;
+    margin-left: auto;
+    background-color: white;
+    border: 1px solid #d9d9d9;
+    border-radius: 7px;
+}
+.card{
+    background-color: white;
+    box-shadow: 0px 4px 24px rgba(0,0,0,0.18);
+    border-radius: 11px;
+}
+.Workers__checkbox{
+    background-color: white;
+    border-radius: 11px;
+    border: #d9d9d9 1px solid;
+}
+.Workers__checkbox-title{
+    font-family: VK;
+    font-size: 26px;
+    width: 200px;
+    margin-bottom: 15px;
+}
+.Workers__content{
+    margin: 15px;
+    width: 700px;
+}
+.Workers__checkbox{
+    margin-right: auto;
+    margin-left: 20px;
+    height: fit-content;
+    padding-bottom: 30px;
+}
+.Workers__checkbox-content{
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.Workers__checkbox-item{
+    font-family: VK;
+    font-size: 18px;
+}
+.Workers__checkbox-item:not(:last-child){
+    margin-bottom: 5px;
+}
+.Workers__list{
+    font-family: VK;
+}
+.Workers__list-item-content{
+    display: flex;
+    justify-content: space-between;
+}
+.Workers__list-item{
+    font-family: VK;
+    margin-bottom: 20px;
+    border-bottom: #d9d9d9 1px solid;
+}
+.Workers__list-item:hover{
+    background-color: rgb(245, 245, 245);
+}
+.Workers__list-item-content{
+    padding: 10px;
+}
+.Workers__list-item-info{
+    display: flex;
+    color: black;
+}
+.Workers__list-item-info-text-name{
+    font-size: 18px;
+    font-family: VK;
+}
+.Workers__list-item-info-text-role{
+    opacity: 0.8;
+    margin-top: 3px;
+    font-size: 12px;
+}
+.Workers__list-item-info-ava{
+    width: 45px;
+    height: 45px;
+    margin-right: 12px;
+    border-radius: 100%;
+    background-color: #6F6CFF;
+}
+.smallbutton{
+    color: white;
+    background-color: #6F6CFF;
+    text-align: center;
+    padding: 10px;
+    border-radius: 7px;
+}
+.smallbutton:hover{
+    opacity: 0.9;
+}
+.toProfile{
+    margin-right: 20px;
+}

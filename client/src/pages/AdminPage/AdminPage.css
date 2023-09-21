@@ -1,0 +1,11 @@
+.AdminPage__wrapper{
+    margin-top: 70px;
+    width: 100%;
+}
+.AdminPage__main{
+    width: 100%;
+}
+.AdminPage__content{
+    width: 1080px;
+    margin: auto;
+}
